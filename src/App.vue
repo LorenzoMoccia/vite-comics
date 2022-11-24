@@ -15,11 +15,23 @@ export default {
 </script>
 
 <template>
-  <AppHeader/>
+  <header class="debug">
+    <AppHeader/>
+    
+    
+  </header>
+  
     
 
 </template>
 
 <style scoped>
+.debug{
+  border: 1px dashed black;
+}
 
+.logo{
+  max-width: fit-content;
+  border-radius: 50%;
+}
 </style>
