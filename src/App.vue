@@ -2,12 +2,14 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
 
 
 
 export default {
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
     
   }
 }
@@ -15,11 +17,12 @@ export default {
 </script>
 
 <template>
-  <header class="debug">
+  <header>
     <AppHeader/>
-    
-    
   </header>
+  <main class="debug">
+    <AppMain/>
+  </main>
   
     
 
@@ -30,8 +33,5 @@ export default {
   border: 1px dashed black;
 }
 
-.logo{
-  max-width: fit-content;
-  border-radius: 50%;
-}
+
 </style>

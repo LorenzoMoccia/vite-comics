@@ -29,6 +29,8 @@ export default {
       </ul>
     </div>
   </div>
+
+  
   
 </template>
 
@@ -39,6 +41,15 @@ export default {
   align-items: center;
 }
 
+.content-container{
+  background-color: black;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+h1{
+  color: white;
+}
 li{
   display: inline-block;
   padding: 5px;
