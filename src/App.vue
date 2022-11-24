@@ -3,13 +3,14 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
-
+import AppFooter from './components/AppFooter.vue'
 
 
 export default {
   components: {
     AppHeader,
-    AppMain
+    AppMain,
+    AppFooter
     
   }
 }
@@ -23,6 +24,9 @@ export default {
   <main class="debug">
     <AppMain/>
   </main>
+  <footer class="debug">
+    <AppFooter/>
+  </footer>
   
     
 
