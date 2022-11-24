@@ -9,21 +9,21 @@ export default {
 </script>
 
 <template>
-  
-  <div class="container">
-    <div>
-        Test
+  <div class="header-container">
+    <div class="container-logo">
+      <img src="../img/dc-logo.png" alt="Logo">
     </div>
-    <div>
-        Test
+    
+    <div class="container-navbar">
+
     </div>
   </div>
-
+  
 </template>
 
 <style lang="scss" scoped>
-.container{
-    display: flex;
-    justify-content: space-between;
-}
+
+
+
+
 </style>
